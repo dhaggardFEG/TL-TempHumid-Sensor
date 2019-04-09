@@ -16,8 +16,8 @@ period = 240 ## Sensor data reporting period (1 minute=60)
 pin = 4 ## Assuming the DHT11 sensor is connected to GPIO pin number 4
 
 ### Change channel name and resource names as suits you
-temp_resource   = Resource(bbt, 'RaspberryPi', 'temperature')
-humid_resource  = Resource(bbt, 'RaspberryPi', 'humidity')
+temp_resource   = Resource(bbt, 'Austin_TechLab', 'Temperature')
+humid_resource  = Resource(bbt, 'Austin_TechLab', 'Humidity')
 
 def run():
   while True:

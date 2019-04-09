@@ -10,9 +10,9 @@ import Adafruit_DHT
 from beebotte import *
 
 ### Replace API_KEY and SECRET_KEY with those of your account
-bbt = BBT('API_KEY', 'SECRET_KEY')
+bbt = BBT(LndqljHmtBCPYZOZXbRy5kxT, wwYuJjISpqygAw29wlzoaSKzn7okjJZP)
 
-period = 60 ## Sensor data reporting period (1 minute)
+period = 240 ## Sensor data reporting period (1 minute=60)
 pin = 4 ## Assuming the DHT11 sensor is connected to GPIO pin number 4
 
 ### Change channel name and resource names as suits you
